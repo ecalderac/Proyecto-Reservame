@@ -11,7 +11,7 @@ let fichaAcupunturaSchema = new Schema({
     consumos: { type: String, required: true },
     actividadFisica: { type: String, required: true },
     tratamiento: { type: Schema.Types.ObjectId, ref: 'Tratamiento' },
-    //diagnosticoAcupuntura: { type: Schema.Types.ObjectId, ref: 'DiagnosticoAcupuntura' }
+    //diagnosticoAcupuntura: { type: Schema.Types.ObjectId, ref: 'DiagnosticoAcupuntura' } 
 
 });
 
